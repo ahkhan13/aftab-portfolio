@@ -108,6 +108,33 @@ export const projects: { name: string; type: string; period: string; stack: stri
       'Handled full release cycle including QA, deployment on AWS (EC2, S3), performance monitoring, and post-deployment fixes to ensure platform stability.',
     ],
   },
+
+    {
+    name: 'Xetlink AI',
+    type: 'Real-time Multilingual Video Conferencing Platform',
+    period: 'Oct 2022 – Dec 2022',
+    stack: [], // TODO: add the tools you actually used on this project
+    bullets: [
+      'Contributed to Xetlink AI, a real-time multilingual communication solution for video conferencing offering speech-to-text and speech-to-speech translation, meeting transcript analysis, and accurate transcription.',
+      'Automated Google Meet, Zoom, and Webex with bots to record meetings and chats.',
+      'Delivered real-time transcriptions from recorded sessions and optimized recording workflows for high reliability and low latency.',
+      'Integrated analytics and reporting to summarize meeting insights and track participation.',
+      'Developed AI-powered transcription and translation algorithms to enhance accuracy and multilingual capability.',
+    ],
+  },
+  {
+    name: 'LumenStocks',
+    type: 'Stock Price Analytics Web Application',
+    period: 'May 2022 – Sep 2022',
+    stack: [], // TODO: add the tools you actually used on this project
+    bullets: [
+      'Built LumenStocks, a web application for analyzing stock prices of multinational companies.',
+      'Designed and implemented a user-friendly interface for real-time stock prices, catering to free users.',
+      'Integrated basic company profiles to give essential insights for informed investment decisions.',
+      'Implemented a subscription-based model offering free users limited access and premium subscribers exclusive features.',
+    ],
+  },
+
   {
     name: 'Talklin',
     type: 'Real-Time Chat Application',
@@ -142,31 +169,6 @@ export const projects: { name: string; type: string; period: string; stack: stri
       'Deployed to GitHub Pages with optimized production build for fast load times.',
     ],
     link: 'https://github.com/ahkhan13/Stallin',
-  },
-  {
-    name: 'Viscord',
-    type: 'Discord Clone (Client-Only Demo)',
-    period: '2025',
-    stack: ['React.js', 'TypeScript', 'Vite', 'CSS Modules', 'Event-Driven Reducer'],
-    bullets: [
-      'Built a Discord-like web app from scratch as an independent implementation with mock in-memory data and no backend.',
-      'Implemented server/guild rail, channel sidebar, real-time-style chat UI, member list, DM/Friends view, and client-side routing.',
-      'Modeled Discord domain concepts (guilds, channels, messages) with an event-driven reducer architecture for state management.',
-      'Designed with attention to Discord UX patterns including message grouping, day dividers, inline markdown, and collapsible categories.',
-    ],
-    link: 'https://github.com/ahkhan13/viscord',
-  },
-  {
-    name: 'Letflix',
-    type: 'Netflix Clone (React + TypeScript)',
-    period: '2025',
-    stack: ['React.js', 'TypeScript', 'Vite', 'CSS', 'Oxlint'],
-    bullets: [
-      'Built a Netflix-inspired streaming UI with React, TypeScript, and Vite for fast development and optimized builds.',
-      'Implemented movie/show browsing interface with modern component architecture and responsive design.',
-      'Focused on clean UI/UX patterns inspired by Netflix with efficient component composition.',
-    ],
-    link: 'https://github.com/ahkhan13/letflix',
   },
 ]
 
