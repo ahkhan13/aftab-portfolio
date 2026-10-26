@@ -143,6 +143,31 @@ export const projects: { name: string; type: string; period: string; stack: stri
     ],
     link: 'https://github.com/ahkhan13/Stallin',
   },
+  {
+    name: 'Viscord',
+    type: 'Discord Clone (Client-Only Demo)',
+    period: '2025',
+    stack: ['React.js', 'TypeScript', 'Vite', 'CSS Modules', 'Event-Driven Reducer'],
+    bullets: [
+      'Built a Discord-like web app from scratch as an independent implementation with mock in-memory data and no backend.',
+      'Implemented server/guild rail, channel sidebar, real-time-style chat UI, member list, DM/Friends view, and client-side routing.',
+      'Modeled Discord domain concepts (guilds, channels, messages) with an event-driven reducer architecture for state management.',
+      'Designed with attention to Discord UX patterns including message grouping, day dividers, inline markdown, and collapsible categories.',
+    ],
+    link: 'https://github.com/ahkhan13/viscord',
+  },
+  {
+    name: 'Letflix',
+    type: 'Netflix Clone (React + TypeScript)',
+    period: '2025',
+    stack: ['React.js', 'TypeScript', 'Vite', 'CSS', 'Oxlint'],
+    bullets: [
+      'Built a Netflix-inspired streaming UI with React, TypeScript, and Vite for fast development and optimized builds.',
+      'Implemented movie/show browsing interface with modern component architecture and responsive design.',
+      'Focused on clean UI/UX patterns inspired by Netflix with efficient component composition.',
+    ],
+    link: 'https://github.com/ahkhan13/letflix',
+  },
 ]
 
 export const education = {
