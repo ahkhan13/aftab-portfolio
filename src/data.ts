@@ -96,13 +96,52 @@ export const projects: { name: string; type: string; period: string; stack: stri
   },
   {
     name: 'GoRally',
-    type: 'Stadium Booking Platform',
+    type: 'Stadium & Turf Booking Platform',
     period: 'Jan 2023 – Dec 2023',
-    stack: ['React.js', 'NestJS', 'GraphQL', 'MySQL', 'Redis', 'AWS S3', 'EC2'],
+    stack: ['Node.js', 'NestJS', 'GraphQL', 'MySQL', 'Redis', 'AWS S3', 'AWS EC2', 'TypeORM'],
     bullets: [
-      'Developed core GraphQL APIs and a slot management engine using NestJS and MySQL, improving booking reliability and supporting concurrent user traffic.',
-      'Collaborated with QA on release validation and monitored API performance to maintain consistent response times under concurrent load.',
+      'Built and delivered the GoRally stadium/turf booking platform end-to-end from scratch, covering venue onboarding, time-slot management, pricing, and booking flows.',
+      'Designed and implemented scalable GraphQL APIs using NestJS and TypeORM with MySQL, enabling efficient querying of venues, availability, and bookings with role-based access control.',
+      'Developed a dynamic slot management engine to handle concurrent bookings, prevent double-booking, and manage real-time availability across multiple venues and courts.',
+      'Integrated Redis for caching high-frequency queries (venue listings, availability) and optimized MySQL schemas with proper indexing to support smooth booking under concurrent traffic.',
+      'Built admin dashboards for venue owners to manage slots, pricing, bookings, and revenue tracking, along with user flows for search, booking, and payment integration.',
+      'Handled full release cycle including QA, deployment on AWS (EC2, S3), performance monitoring, and post-deployment fixes to ensure platform stability.',
     ],
+  },
+  {
+    name: 'Talklin',
+    type: 'Real-Time Chat Application',
+    period: '2022',
+    stack: ['Node.js', 'Express.js', 'MongoDB', 'Socket.IO', 'Handlebars (hbs)'],
+    bullets: [
+      'Built a real-time chat application with one-to-one messaging using Socket.IO for instant bidirectional communication.',
+      'Implemented user authentication, friend requests, and private conversations with MongoDB for persistent message storage.',
+      'Designed a clean server-rendered UI using Express.js and Handlebars with responsive layouts.',
+    ],
+    link: 'https://github.com/ahkhan13/Talklin',
+  },
+  {
+    name: 'Fable',
+    type: 'Social Networking Platform',
+    period: '2022',
+    stack: ['PHP', 'MySQL', 'JavaScript', 'jQuery', 'Bootstrap'],
+    bullets: [
+      'Developed a social media platform with post creation, likes, comments, friend requests, and real-time-style interactions.',
+      'Built authentication, profile management, and friend-network features with a relational MySQL schema.',
+      'Implemented friend chat functionality and news-feed logic to display relevant posts from connected users.',
+    ],
+    link: 'https://github.com/ahkhan13/Fable',
+  },
+  {
+    name: 'Stallin',
+    type: 'React Web Application',
+    period: '2022',
+    stack: ['React.js', 'JavaScript', 'CSS3', 'Create React App'],
+    bullets: [
+      'Built a responsive React.js application with component-based architecture and clean UI design.',
+      'Deployed to GitHub Pages with optimized production build for fast load times.',
+    ],
+    link: 'https://github.com/ahkhan13/Stallin',
   },
 ]
 
