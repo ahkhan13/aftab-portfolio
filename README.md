@@ -27,7 +27,7 @@ npm run preview   # preview the production build
 
 ```
 index.html        SEO meta tags, JSON-LD, font
-public/           favicon.svg, Aftab_Husain_Resume.pdf
+public/           favicon.svg, Aftab_Resume.pdf
 src/data.ts       All portfolio content (edit this file to update the site)
 src/App.tsx       Sections and UI components
 src/index.css     Tailwind setup and base styles
@@ -37,7 +37,7 @@ src/index.css     Tailwind setup and base styles
 
 - **Text, skills, experience, projects:** edit `src/data.ts`.
 - **Project links:** add `link: 'https://...'` to a project in `src/data.ts`; a "View project" button appears on its card.
-- **Resume:** replace `public/Aftab_Husain_Resume.pdf`, keeping the same file name.
+- **Resume:** replace `public/Aftab_Resume.pdf`, keeping the same file name.
 - **Colors and fonts:** change the Tailwind classes in `src/App.tsx` or `tailwind.config.js`.
 
 ## Deployment

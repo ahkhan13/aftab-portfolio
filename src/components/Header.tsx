@@ -9,8 +9,9 @@ export function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/5 bg-[#0b0d12]/80 backdrop-blur">
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5" aria-label="Main">
-        <a href="#top" className="text-lg font-semibold text-white" aria-label="Aftab Husain - home">
-          AH<span className="text-cyan-400">.</span>
+        <a href="#top" className="flex items-center gap-2 text-lg font-semibold text-white" aria-label="Aftab Husain - home">
+          <img src={import.meta.env.BASE_URL + 'profile.jpg'} alt="Aftab Husain" className="h-9 w-9 rounded-full object-cover ring-1 ring-white/20" />
+          <span>AH<span className="text-cyan-400">.</span></span>
         </a>
         <ul className="hidden gap-8 text-sm md:flex">
           {nav.map((n) => (
