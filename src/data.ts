@@ -10,7 +10,7 @@ export const profile = {
   phoneHref: 'tel:+919569721196',
   linkedin: 'https://www.linkedin.com/in/aftab-husain-6a077b221/',
   github: 'https://github.com/ahkhan13',
-  resume: '/Aftab_Husain_Resume.pdf',
+  resume: import.meta.env.BASE_URL + 'Aftab_Resume.pdf',
   summary:
     'Software Engineer with 4.5 years of professional experience building production backend systems and Generative AI features using Node.js, NestJS, TypeScript, and AWS. Built and enhanced an AI document verification agent with Amazon Bedrock (Claude) and AWS Textract, using confidence-based auto-approval with human review. Strong backend foundation in REST and GraphQL API design, microservices, database optimization (MySQL, PostgreSQL, MongoDB), and Redis caching. Experienced with Docker, GitHub Actions CI/CD, feature-flag releases, and New Relic observability in Agile teams.',
 }
